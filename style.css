@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:center;  
+}
+
+nav ul li {
+  margin-right: 80px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.two img {
+  max-width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.container{
+max-width: 1200px;
+margin:0 auto;
+padding: 0 20px;
+}
+.product{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;
+}
+.two{
+margin-bottom: 60px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+text-align: center;
+}
+.one{
+text-align: center;
+width: 1000px;
+padding: 250px;
+}
+footer{
+width: 500px;
+display: flex;
+flex-wrap: wrap;
+text-align: right;
+}
+table{
+text-align: center;
+}
+
+/* Style the header text */
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the navigation links */
+nav ul li a:hover {
+  color: #666;
+}
+
+/* Style the product price */
+.two .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style the product title */
+.two h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the product description */
+.two p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style the product buttons */
+.two .btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.two .btn:hover {
+  background-color: #666;
+}
+
+/* Style the footer links */
+footer a {
+  margin-right: 20px;
+  color: #333;
+}
+
+footer a:hover {
+  color: #666;
+}
+
